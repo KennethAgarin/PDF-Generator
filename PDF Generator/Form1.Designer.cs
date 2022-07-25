@@ -66,6 +66,7 @@
             this.generatebtn = new System.Windows.Forms.Button();
             this.readjsonbtn = new System.Windows.Forms.Button();
             this.textBoxName = new System.Windows.Forms.TextBox();
+            this.textBoxphoto = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -439,6 +440,7 @@
             this.generatebtn.TabIndex = 39;
             this.generatebtn.Text = "Generate PDF";
             this.generatebtn.UseVisualStyleBackColor = true;
+            this.generatebtn.Click += new System.EventHandler(this.generatebtn_Click);
             // 
             // readjsonbtn
             // 
@@ -459,12 +461,23 @@
             this.textBoxName.Size = new System.Drawing.Size(178, 13);
             this.textBoxName.TabIndex = 41;
             // 
+            // textBoxphoto
+            // 
+            this.textBoxphoto.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.textBoxphoto.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxphoto.Location = new System.Drawing.Point(82, 492);
+            this.textBoxphoto.Multiline = true;
+            this.textBoxphoto.Name = "textBoxphoto";
+            this.textBoxphoto.Size = new System.Drawing.Size(178, 53);
+            this.textBoxphoto.TabIndex = 42;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(843, 556);
+            this.Controls.Add(this.textBoxphoto);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.readjsonbtn);
             this.Controls.Add(this.generatebtn);
@@ -549,6 +562,7 @@
         private System.Windows.Forms.Button generatebtn;
         private System.Windows.Forms.Button readjsonbtn;
         private System.Windows.Forms.TextBox textBoxName;
+        private System.Windows.Forms.TextBox textBoxphoto;
     }
 }
 

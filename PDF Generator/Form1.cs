@@ -83,5 +83,13 @@ namespace PDF_Generator
         {
 
         }
+
+        private void generatebtn_Click(object sender, EventArgs e)
+        {
+            Document document = new Document(iTextSharp.text.PageSize.LEGAL, 10, 10, 42, 35);
+            PdfWriter writer = PdfWriter.GetInstance(document, new FileStream(@"C:\Users\DELL LATITUDE\Desktop\PDF Generator\Agarin.pdf", FileMode.Create));
+            document.Open();
+
+        }
     }
 }

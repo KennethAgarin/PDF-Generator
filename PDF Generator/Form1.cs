@@ -7,10 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+using System.Diagnostics;
+using System.Text.Json;
 using System.IO;
+using PdfSharp;
+using PdfSharp.Pdf;
+using PdfSharp.Drawing;
+using System.Media;
 
 namespace PDF_Generator
 {
@@ -56,27 +59,43 @@ namespace PDF_Generator
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void readjsonbtn_Click(object sender, EventArgs e)
         {
-            var Json_Path = @"C:\Users\DELL LATITUDE\Desktop\PDF Generator\Agarin-Resume.json";
-            string JsonFIle = File.ReadAllText(Json_Path);
-            Json_Content j = JsonConvert.DeserializeObject<Json_Content>(JsonFIle);
+            string filename = "ResumeInformation.json";
+            string jsonInfo = File.ReadAllText(filename);
+            Json_Content Resume = JsonSerializer.Deserialize<Json_Content>(jsonInfo);
 
-            textBoxName.Text = j.Name;
-            textBoxAdd.Text = j.Address;
-            textBoxEadd.Text = j.EmailAddress;
-            textBoxConNo.Text = j.ContactNo;
-            textBoxTerEd.Text = j.TertiaryEducation + "\r\n" + j.SchoolAddress + "\r\n" + j.YearGraduated + "\r\n" + j.SecondaryEducation + "\r\n" + j.SchoolAddress1 + "\r\n" + j.YearGraduated1
-            + "\r\n" + j.PrimaryEducation + "\r\n" + j.SchoolAddress3 + "\r\n" + j.YearGraduated3;
-            textBoxach1.Text = j.Achievements + "\r\n" + j.Achievements1 + "\r\n" + j.Achievements2 + "\r\n" + j.Achievements4;
-            textBoxsem1.Text = j.Seminars + "\r\n" + j.Seminars1;
-            textBoxCRName.Text = j.CRName + "\r\n" + j.CRPosition + "\r\n" + j.CRSchool;
-            textBoxCRName1.Text = j.CRName1 + "\r\n" + j.CRPosition1 + "\r\n" + j.CRSchool1;
-            textBoxskill1.Text = j.Skill1 + "\r\n" + j.Skill2 + "\r\n" + j.Skill3;
-            textBoxObj.Text = j.Objective;
+            string Name = Resume.Name;
+            string Address = Resume.Address;
+            string EmailAdress = Resume.EmailAddress;
+            string ContactNo = Resume.ContactNo;
+            string TertiaryEducation = Resume.TertiaryEducation;
+            string SchoolAdress = Resume.SchoolAddress;
+            string YearGraduated = Resume.YearGraduated;
+            string SecondaryEducation = Resume.SecondaryEducation;
+            string SchoolAddress1 = Resume.SchoolAddress1;
+            string YearGraduated1 = Resume.YearGraduated1;
+            string PrimaryEducation = Resume.PrimaryEducation;
+            string SchoolAddress3 = Resume.SchoolAddress3;
+            string YearGraduated3 = Resume.YearGraduated3;
+            string Achievements = Resume.Achievements;
+            string Achievements1 = Resume.Achievements1;
+            string Achievements2 = Resume.Achievements2;
+            string Achievements4 = Resume.Achievements4;
+            string Seminars = Resume.Seminars;
+            string Seminars1 = Resume.Seminars1;
+            string CRName = Resume.CRName;
+            string CRPosition = Resume.CRPosition;
+            string CRSchool = Resume.CRSchool;
+            string CRName1 = Resume.CRName1;
+            string CRPosition1 = Resume.CRPosition1;
+            string CRSchool1 = Resume.CRSchool1;
+
+            textBoxName
+
         }
 
         private void textBoxObj_TextChanged(object sender, EventArgs e)
@@ -86,9 +105,7 @@ namespace PDF_Generator
 
         private void generatebtn_Click(object sender, EventArgs e)
         {
-            Document document = new Document(iTextSharp.text.PageSize.LEGAL, 10, 10, 42, 35);
-            PdfWriter writer = PdfWriter.GetInstance(document, new FileStream(@"C:\Users\DELL LATITUDE\Desktop\PDF Generator\Agarin.pdf", FileMode.Create));
-            document.Open();
+            
 
         }
     }

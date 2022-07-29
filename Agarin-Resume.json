@@ -9,13 +9,13 @@
 	"SecondaryEducation": "Domingo Yu Chu National High School",
 	"SchoolAddress1": "Maluanluan, Pola, Oriental Mindoro",
 	"YearGraduated1": "2015-2021",
-	"PrimaryEducation": "Casiligan Elementary School", 
-	"SchoolAddress3": "Casiligan, Pola, Oriental Mindoro", 
-	"YearGraduated3": "2011-2015", 
+	"PrimaryEducation": "Casiligan Elementary School",
+	"SchoolAddress3": "Casiligan, Pola, Oriental Mindoro",
+	"YearGraduated3": "2011-2015",
 	"Achievements": "•Certificate of Recognition, Arduino Course Training (2019)",
 	"Achievements1": "•With High Honors, Senior High School (2019-2021)",
 	"Achievements2": "•Champion, Dokyubata Film Making Contest 2019",
-	"Achievements4": "•3rd Place-TV Broadcasting, MIMAROPA School Press Conference (2019)", 
+	"Achievements4": "•3rd Place-TV Broadcasting, MIMAROPA School Press Conference (2019)",
 	"Seminars": "•MIMAROPA IT Congress 2018",
 	"Seminars1": "•Robotics-Internet of Things",
 	"CRName": "Steve Marc V. Ines",
@@ -27,6 +27,8 @@
 	"Skill1": "•I am able to communicate",
 	"Skill2": "•I can lead and be a good leader",
 	"Skill3": "•Video Editing and Programming",
-	"Objective": ": To obtain suitable position as Software Developer Intern that will enable me to use my strong organizational skills, educational background and ability to work well with people and help for the progress of your company."
+	"Objective": "To obtain suitable position as Software Developer Intern that will enable me to use my strong",
+	"Objective1": "organizational skills, educational background and ability to work well with people and help for",
+	"Objective2": "the progress of your company."
 
 } 

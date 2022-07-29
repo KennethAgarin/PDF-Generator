@@ -247,12 +247,18 @@ namespace PDF_Generator
                     graph.DrawString(Skills1, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 375, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
                     graph.DrawString(Skills2, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 385, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
                     graph.DrawRectangle(NewLine, marginleft + 20, initialleft + 340, 500, .5);
+                    graph.DrawRectangle(NewLine, marginleft + 20, initialleft + 400, 500, .5);
 
-                    graph.DrawString("CHARACTER PREFERENCE:", bigfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 400, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(CRName, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 415, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(CRPosition, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 425, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(CRSchool, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 435, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-
+                    graph.DrawRectangle(NewLine, marginleft + 20, initialleft + 565, 500, .5);
+                    graph.DrawString("CHARACTER PREFERENCE:", bigfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 410, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString("High School:", smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 430, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(CRName, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 450, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(CRPosition, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 460, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(CRSchool, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 470, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString("College:", smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 500, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(CRName1, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 515, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(CRPosition1, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 525, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(CRSchool1, smallfont, XBrushes.Black, new XRect(marginleft + 20, initialleft + 535, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
 
 
 

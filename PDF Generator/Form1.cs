@@ -64,7 +64,7 @@ namespace PDF_Generator
 
         private void readjsonbtn_Click(object sender, EventArgs e)
         {
-            string filename = "ResumeInformation.json";
+            string filename = @"C:\Users\DELL LATITUDE\Desktop\PDF Generator\Agarin-Resume.json";
             string jsonInfo = File.ReadAllText(filename);
             Json_Content Resume = JsonSerializer.Deserialize<Json_Content>(jsonInfo);
 
@@ -93,8 +93,25 @@ namespace PDF_Generator
             string CRName1 = Resume.CRName1;
             string CRPosition1 = Resume.CRPosition1;
             string CRSchool1 = Resume.CRSchool1;
+            string Skills = Resume.Skill1;
 
-            textBoxName
+            textBoxName.Text =  Resume.Name;
+            textBoxAdd.Text =  Resume.Address;
+            textBoxEadd.Text =  Resume.EmailAddress;
+            textBoxConNo.Text =  Resume.ContactNo;
+            textBoxObj.Text =  Resume.Objective;
+            textBoxTerEd.Text =  Resume.TertiaryEducation + "  " + Resume.SchoolAddress + "                                       " + Resume.YearGraduated;
+            textBoxseced.Text =  Resume.SecondaryEducation + "  " + Resume.SchoolAddress1 + "       " + Resume.YearGraduated1;
+            textBoxprimed.Text =  Resume.PrimaryEducation + "  " + Resume.SchoolAddress3 + "                            " + Resume.YearGraduated3;
+            textBoxach1.Text =  Resume.Achievements + "  " + Resume.Achievements1 + "  " + Resume.Achievements2 + "                   " + Resume.Achievements4;
+            textBoxsem1.Text =  Resume.Seminars + "                         " + Resume.Seminars1;
+            textBoxskill1.Text =  Resume.Skill1 + "               " + Resume.Skill2 + "     " + Resume.Skill3;
+            textBoxCRName.Text =  Resume.CRName + "                                                   " + Resume.CRPosition + "                        " + Resume.CRSchool;
+            textBoxCRName1.Text = Resume.CRName1 + "                                                   " + Resume.CRPosition1 + "  " + Resume.CRSchool1;
+
+
+
+
 
         }
 

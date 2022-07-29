@@ -31,28 +31,28 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.namelbl = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.skillslbl = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.CRlbl = new System.Windows.Forms.Label();
+            this.objlbl = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.addresslbl = new System.Windows.Forms.Label();
+            this.emailadlbl = new System.Windows.Forms.Label();
+            this.connolbl = new System.Windows.Forms.Label();
+            this.teredlbl = new System.Windows.Forms.Label();
+            this.secedlbl = new System.Windows.Forms.Label();
+            this.primedlbl = new System.Windows.Forms.Label();
+            this.achievemnetlbl = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.seminarlbl = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.CharPrelbl = new System.Windows.Forms.Label();
+            this.CharPrellb2 = new System.Windows.Forms.Label();
             this.textBoxAdd = new System.Windows.Forms.TextBox();
             this.textBoxEadd = new System.Windows.Forms.TextBox();
             this.textBoxConNo = new System.Windows.Forms.TextBox();
@@ -67,6 +67,8 @@
             this.readjsonbtn = new System.Windows.Forms.Button();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxphoto = new System.Windows.Forms.TextBox();
+            this.textBoxseced = new System.Windows.Forms.TextBox();
+            this.textBoxprimed = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,16 +93,16 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "PDF Resume Generator";
             // 
-            // label2
+            // namelbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(41, 144);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 19);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Name:";
+            this.namelbl.AutoSize = true;
+            this.namelbl.BackColor = System.Drawing.Color.Transparent;
+            this.namelbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namelbl.Location = new System.Drawing.Point(41, 144);
+            this.namelbl.Name = "namelbl";
+            this.namelbl.Size = new System.Drawing.Size(54, 19);
+            this.namelbl.TabIndex = 2;
+            this.namelbl.Text = "Name:";
             // 
             // label3
             // 
@@ -113,16 +115,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Educational Background:";
             // 
-            // label4
+            // skillslbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 416);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 24);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Skills:";
+            this.skillslbl.AutoSize = true;
+            this.skillslbl.BackColor = System.Drawing.Color.Transparent;
+            this.skillslbl.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.skillslbl.Location = new System.Drawing.Point(21, 416);
+            this.skillslbl.Name = "skillslbl";
+            this.skillslbl.Size = new System.Drawing.Size(63, 24);
+            this.skillslbl.TabIndex = 4;
+            this.skillslbl.Text = "Skills:";
             // 
             // label5
             // 
@@ -146,27 +148,27 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Seminars and Trainings Attended:";
             // 
-            // label7
+            // CRlbl
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(403, 304);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(211, 24);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Character Preference:";
+            this.CRlbl.AutoSize = true;
+            this.CRlbl.BackColor = System.Drawing.Color.Transparent;
+            this.CRlbl.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CRlbl.Location = new System.Drawing.Point(403, 304);
+            this.CRlbl.Name = "CRlbl";
+            this.CRlbl.Size = new System.Drawing.Size(211, 24);
+            this.CRlbl.TabIndex = 7;
+            this.CRlbl.Text = "Character Preference:";
             // 
-            // label8
+            // objlbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(403, 468);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(103, 24);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Objective:";
+            this.objlbl.AutoSize = true;
+            this.objlbl.BackColor = System.Drawing.Color.Transparent;
+            this.objlbl.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.objlbl.Location = new System.Drawing.Point(403, 468);
+            this.objlbl.Name = "objlbl";
+            this.objlbl.Size = new System.Drawing.Size(103, 24);
+            this.objlbl.TabIndex = 8;
+            this.objlbl.Text = "Objective:";
             // 
             // label9
             // 
@@ -179,82 +181,82 @@
             this.label9.TabIndex = 9;
             this.label9.Text = "Basic Information:";
             // 
-            // label10
+            // addresslbl
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(41, 163);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 19);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Address:";
+            this.addresslbl.AutoSize = true;
+            this.addresslbl.BackColor = System.Drawing.Color.Transparent;
+            this.addresslbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addresslbl.Location = new System.Drawing.Point(41, 163);
+            this.addresslbl.Name = "addresslbl";
+            this.addresslbl.Size = new System.Drawing.Size(69, 19);
+            this.addresslbl.TabIndex = 10;
+            this.addresslbl.Text = "Address:";
             // 
-            // label11
+            // emailadlbl
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(41, 182);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(102, 19);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "Email Adress:";
+            this.emailadlbl.AutoSize = true;
+            this.emailadlbl.BackColor = System.Drawing.Color.Transparent;
+            this.emailadlbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailadlbl.Location = new System.Drawing.Point(41, 182);
+            this.emailadlbl.Name = "emailadlbl";
+            this.emailadlbl.Size = new System.Drawing.Size(102, 19);
+            this.emailadlbl.TabIndex = 11;
+            this.emailadlbl.Text = "Email Adress:";
             // 
-            // label12
+            // connolbl
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(41, 201);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(124, 19);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "Contact Number:";
+            this.connolbl.AutoSize = true;
+            this.connolbl.BackColor = System.Drawing.Color.Transparent;
+            this.connolbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.connolbl.Location = new System.Drawing.Point(41, 201);
+            this.connolbl.Name = "connolbl";
+            this.connolbl.Size = new System.Drawing.Size(124, 19);
+            this.connolbl.TabIndex = 12;
+            this.connolbl.Text = "Contact Number:";
             // 
-            // label13
+            // teredlbl
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(41, 242);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(138, 19);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "Tertiary Education:";
+            this.teredlbl.AutoSize = true;
+            this.teredlbl.BackColor = System.Drawing.Color.Transparent;
+            this.teredlbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teredlbl.Location = new System.Drawing.Point(41, 242);
+            this.teredlbl.Name = "teredlbl";
+            this.teredlbl.Size = new System.Drawing.Size(138, 19);
+            this.teredlbl.TabIndex = 13;
+            this.teredlbl.Text = "Tertiary Education:";
             // 
-            // label14
+            // secedlbl
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(41, 294);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(154, 19);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "Secondary Education:";
+            this.secedlbl.AutoSize = true;
+            this.secedlbl.BackColor = System.Drawing.Color.Transparent;
+            this.secedlbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.secedlbl.Location = new System.Drawing.Point(41, 294);
+            this.secedlbl.Name = "secedlbl";
+            this.secedlbl.Size = new System.Drawing.Size(154, 19);
+            this.secedlbl.TabIndex = 14;
+            this.secedlbl.Text = "Secondary Education:";
             // 
-            // label15
+            // primedlbl
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(41, 346);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(137, 19);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "Primary Education:";
+            this.primedlbl.AutoSize = true;
+            this.primedlbl.BackColor = System.Drawing.Color.Transparent;
+            this.primedlbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.primedlbl.Location = new System.Drawing.Point(41, 346);
+            this.primedlbl.Name = "primedlbl";
+            this.primedlbl.Size = new System.Drawing.Size(137, 19);
+            this.primedlbl.TabIndex = 15;
+            this.primedlbl.Text = "Primary Education:";
             // 
-            // label16
+            // achievemnetlbl
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(407, 140);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(113, 19);
-            this.label16.TabIndex = 16;
-            this.label16.Text = "Achievement 1:";
+            this.achievemnetlbl.AutoSize = true;
+            this.achievemnetlbl.BackColor = System.Drawing.Color.Transparent;
+            this.achievemnetlbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.achievemnetlbl.Location = new System.Drawing.Point(407, 140);
+            this.achievemnetlbl.Name = "achievemnetlbl";
+            this.achievemnetlbl.Size = new System.Drawing.Size(113, 19);
+            this.achievemnetlbl.TabIndex = 16;
+            this.achievemnetlbl.Text = "Achievement 1:";
             // 
             // label17
             // 
@@ -289,16 +291,16 @@
             this.label19.TabIndex = 19;
             this.label19.Text = "Achievement 4:";
             // 
-            // label20
+            // seminarlbl
             // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(407, 254);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(192, 19);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "Seminar/Training Attended:";
+            this.seminarlbl.AutoSize = true;
+            this.seminarlbl.BackColor = System.Drawing.Color.Transparent;
+            this.seminarlbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seminarlbl.Location = new System.Drawing.Point(407, 254);
+            this.seminarlbl.Name = "seminarlbl";
+            this.seminarlbl.Size = new System.Drawing.Size(192, 19);
+            this.seminarlbl.TabIndex = 20;
+            this.seminarlbl.Text = "Seminar/Training Attended:";
             // 
             // label21
             // 
@@ -311,27 +313,27 @@
             this.label21.TabIndex = 21;
             this.label21.Text = "Seminar/Training Attended:";
             // 
-            // label22
+            // CharPrelbl
             // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(407, 340);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(152, 19);
-            this.label22.TabIndex = 22;
-            this.label22.Text = "High School Teacher:";
+            this.CharPrelbl.AutoSize = true;
+            this.CharPrelbl.BackColor = System.Drawing.Color.Transparent;
+            this.CharPrelbl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharPrelbl.Location = new System.Drawing.Point(407, 340);
+            this.CharPrelbl.Name = "CharPrelbl";
+            this.CharPrelbl.Size = new System.Drawing.Size(152, 19);
+            this.CharPrelbl.TabIndex = 22;
+            this.CharPrelbl.Text = "High School Teacher:";
             // 
-            // label23
+            // CharPrellb2
             // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(407, 404);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(133, 19);
-            this.label23.TabIndex = 23;
-            this.label23.Text = "College Professor:";
+            this.CharPrellb2.AutoSize = true;
+            this.CharPrellb2.BackColor = System.Drawing.Color.Transparent;
+            this.CharPrellb2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharPrellb2.Location = new System.Drawing.Point(407, 404);
+            this.CharPrellb2.Name = "CharPrellb2";
+            this.CharPrellb2.Size = new System.Drawing.Size(133, 19);
+            this.CharPrellb2.TabIndex = 23;
+            this.CharPrellb2.Text = "College Professor:";
             // 
             // textBoxAdd
             // 
@@ -365,10 +367,10 @@
             // 
             this.textBoxTerEd.BackColor = System.Drawing.SystemColors.ControlDark;
             this.textBoxTerEd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxTerEd.Location = new System.Drawing.Point(195, 245);
+            this.textBoxTerEd.Location = new System.Drawing.Point(199, 249);
             this.textBoxTerEd.Multiline = true;
             this.textBoxTerEd.Name = "textBoxTerEd";
-            this.textBoxTerEd.Size = new System.Drawing.Size(178, 178);
+            this.textBoxTerEd.Size = new System.Drawing.Size(202, 51);
             this.textBoxTerEd.TabIndex = 32;
             // 
             // textBoxskill1
@@ -378,7 +380,7 @@
             this.textBoxskill1.Location = new System.Drawing.Point(90, 424);
             this.textBoxskill1.Multiline = true;
             this.textBoxskill1.Name = "textBoxskill1";
-            this.textBoxskill1.Size = new System.Drawing.Size(178, 53);
+            this.textBoxskill1.Size = new System.Drawing.Size(170, 53);
             this.textBoxskill1.TabIndex = 33;
             // 
             // textBoxach1
@@ -388,7 +390,7 @@
             this.textBoxach1.Location = new System.Drawing.Point(526, 144);
             this.textBoxach1.Multiline = true;
             this.textBoxach1.Name = "textBoxach1";
-            this.textBoxach1.Size = new System.Drawing.Size(277, 76);
+            this.textBoxach1.Size = new System.Drawing.Size(305, 76);
             this.textBoxach1.TabIndex = 34;
             // 
             // textBoxsem1
@@ -471,12 +473,34 @@
             this.textBoxphoto.Size = new System.Drawing.Size(178, 53);
             this.textBoxphoto.TabIndex = 42;
             // 
+            // textBoxseced
+            // 
+            this.textBoxseced.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.textBoxseced.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxseced.Location = new System.Drawing.Point(199, 298);
+            this.textBoxseced.Multiline = true;
+            this.textBoxseced.Name = "textBoxseced";
+            this.textBoxseced.Size = new System.Drawing.Size(202, 51);
+            this.textBoxseced.TabIndex = 43;
+            // 
+            // textBoxprimed
+            // 
+            this.textBoxprimed.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.textBoxprimed.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxprimed.Location = new System.Drawing.Point(199, 350);
+            this.textBoxprimed.Multiline = true;
+            this.textBoxprimed.Name = "textBoxprimed";
+            this.textBoxprimed.Size = new System.Drawing.Size(202, 51);
+            this.textBoxprimed.TabIndex = 44;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(843, 556);
+            this.Controls.Add(this.textBoxprimed);
+            this.Controls.Add(this.textBoxseced);
             this.Controls.Add(this.textBoxphoto);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.readjsonbtn);
@@ -491,28 +515,28 @@
             this.Controls.Add(this.textBoxConNo);
             this.Controls.Add(this.textBoxEadd);
             this.Controls.Add(this.textBoxAdd);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
+            this.Controls.Add(this.CharPrellb2);
+            this.Controls.Add(this.CharPrelbl);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.seminarlbl);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.achievemnetlbl);
+            this.Controls.Add(this.primedlbl);
+            this.Controls.Add(this.secedlbl);
+            this.Controls.Add(this.teredlbl);
+            this.Controls.Add(this.connolbl);
+            this.Controls.Add(this.emailadlbl);
+            this.Controls.Add(this.addresslbl);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.objlbl);
+            this.Controls.Add(this.CRlbl);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.skillslbl);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.namelbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -527,28 +551,28 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label namelbl;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label skillslbl;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label CRlbl;
+        private System.Windows.Forms.Label objlbl;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label addresslbl;
+        private System.Windows.Forms.Label emailadlbl;
+        private System.Windows.Forms.Label connolbl;
+        private System.Windows.Forms.Label teredlbl;
+        private System.Windows.Forms.Label secedlbl;
+        private System.Windows.Forms.Label primedlbl;
+        private System.Windows.Forms.Label achievemnetlbl;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label seminarlbl;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label CharPrelbl;
+        private System.Windows.Forms.Label CharPrellb2;
         private System.Windows.Forms.TextBox textBoxAdd;
         private System.Windows.Forms.TextBox textBoxEadd;
         private System.Windows.Forms.TextBox textBoxConNo;
@@ -563,6 +587,8 @@
         private System.Windows.Forms.Button readjsonbtn;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxphoto;
+        private System.Windows.Forms.TextBox textBoxseced;
+        private System.Windows.Forms.TextBox textBoxprimed;
     }
 }
 

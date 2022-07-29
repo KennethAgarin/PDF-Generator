@@ -45,3 +45,13 @@ C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\Microsoft.I
 C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
 C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.Authentication.xml
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.Text.Json.dll
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.ValueTuple.dll
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.Text.Json.xml
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\DELL LATITUDE\Desktop\PDF Generator\PDF Generator\bin\Debug\System.ValueTuple.xml
